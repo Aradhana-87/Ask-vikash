@@ -1,0 +1,83 @@
+{
+  "bca": [
+    {
+      "name": "Dr. Khirod Kumar Pradhan",
+      "position": "Principal",
+      "qualification": "Phd",
+      "experience": "5+years",
+      "image": "images/khirod.jpeg"
+    },
+    {
+      "name": "Mr. Deepak Kumar Nayak",
+      "position": "HOD BCA",
+      "qualification": "Masters in Computer Science",
+      "experience": "5+years",
+      "image": "images/deepak.jpeg"
+    },
+    {
+      "name": "Ms. Mousumi Swain",
+      "position": "Assistant Professor",
+      "qualification": "MCA",
+      "experience": "2+ years",
+      "image": "images/mousumi.jpeg"
+    },
+    {
+      "name": "Ms. Sushree Meher",
+      "position": "Assistant Professor",
+      "qualification": "Masters in Mathematics",
+      "experience": "2+ years",
+      "image": "images/sushree.jpeg"
+    },
+    {
+      "name": "Ms. Mamuni Panigrahi",
+      "position": "Assistant Professor",
+      "qualification": "MCA",
+      "experience": "1+ years",
+      "image": "images/mamuni.jpeg"
+    },
+    {
+      "name": "Mr. Bijay Kumar Bibhar",
+      "position": "Assistant Professor",
+      "qualification": "MCA",
+      "experience": "4+ years",
+      "image": "images/bijay.jpeg"
+    }
+  ],
+
+  "bba": [
+    {
+      "name": "Dr. Khirod Kumar Pradhan",
+      "position": "Principal",
+      "qualification": "Phd",
+      "experience": "5+ years",
+      "image": "images/khirod.jpeg"
+    },
+    {
+      "name": "Dr. Subham Kumar Dash",
+      "position": "HOD BBA",
+      "qualification": "Phd",
+      "experience": "5+years",
+      "image": "images/subham.jpeg"
+    },
+    {
+      "name": "Mr. Soodesh Binayak",
+      "position": "Assistant Professor",
+      "qualification": "MBA",
+      "experience": "3+years",
+      "image": "images/soodesh.jpeg"
+    },
+    {
+      "name": "Ms. Soumya Priyadarsini",
+      "position": "Assistant Professor",
+      "qualification": "MBA",
+      "experience": "3+ years",
+      "image": "images/soumya.jpeg"
+    },
+    {
+      "name": "Dr. Swagatika",
+      "position": "Assistant Professor",
+      "qualification": "phd",
+      "experience": "3+ years"
+    }
+  ]
+}

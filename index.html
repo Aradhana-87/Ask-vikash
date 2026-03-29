@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- 💬 Floating Button -->
+<button id="chat-toggle" onclick="toggleChat(); console.log('clicked')">💬</button>
+
+<!-- 🤖 Chatbot -->
+<div id="chatbot">
+  <div class="chat-container">
+
+    <div class="chat-header">
+      Ask Vikash 🤖
+      <span onclick="toggleChat()" style="float:right; cursor:pointer;">❌</span>
+    </div>
+
+    <div id="chatbox"></div>
+
+    <div class="buttons">
+      <button onclick="selectCourse('bca')">BCA</button>
+      <button onclick="selectCourse('bba')">BBA</button>
+    </div>
+
+    <div class="input-area">
+      <button onclick="startMic()">🎤</button>
+      <input type="text" id="userInput" placeholder="Ask something...">
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="./script.js"></script>
+
+</body>
+</html>

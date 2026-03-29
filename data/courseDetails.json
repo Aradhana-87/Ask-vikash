@@ -1,0 +1,289 @@
+{
+  "bca": {
+    "duration": "3 years",
+    "eligibility": "12th pass",
+    "semesters": {
+      "sem1": {
+        "Digital Logic": {
+          "Unit 1": ["Number System"],
+          "Unit 2": ["Arithmetic Operation"],
+          "Unit 3": ["Flipflop and Register"],
+          "Unit 4": ["Memory System"]
+        },
+        "Programming using C": {
+          "Unit 1": ["Introduction to Programming Language"],
+          "Unit 2": ["Loop and Array"],
+          "Unit 3": ["Class and Function"],
+          "Unit 4": ["Structure and Union"]
+        },
+        "EVS": {},
+        "Principles of Management": {
+          "Unit 1": ["Nature of Management"],
+          "Unit 2": ["Function of Management Part 1"],
+          "Unit 3": ["Function of Management Part 2"],
+          "Unit 4": ["Strategic Management"]
+        }
+      },
+
+      "sem2": {
+        "English": {},
+        "Programming using C++": {
+          "Unit 1": ["Principle of OOPS"],
+          "Unit 2": ["Class and Objects"],
+          "Unit 3": ["Inheritance"],
+          "Unit 4": ["Console I/O Operation"]
+        },
+        "Data Structure": {
+          "Unit 1": ["Introduction to Data Structure"],
+          "Unit 2": ["Stack and Queue"],
+          "Unit 3": ["Trees"],
+          "Unit 4": ["Sorting and Searching"]
+        },
+        "Statistics": {
+          "Unit 1": ["Statistical Methods"],
+          "Unit 2": ["Measure of Central Tendency"],
+          "Unit 3": ["Bivariate Data"],
+          "Unit 4": ["Principle of Least Squares"]
+        }
+      },
+
+      "sem3": {
+        "Computer Organisation": {
+          "Unit 1": ["Basic Structure of Computer"],
+          "Unit 2": ["Basic Processing Unit"],
+          "Unit 3": ["Input Output Organisation"],
+          "Unit 4": ["Pipelining"]
+        },
+        "Operating System": {
+          "Unit 1": ["Introduction to Operating System"],
+          "Unit 2": ["Process Management"],
+          "Unit 3": ["Memory Management Strategies"],
+          "Unit 4": ["Storage Management"]
+        },
+        "Discrete Mathematical Structure": {
+          "Unit 1": ["Logic and Proof, Set and Function"],
+          "Unit 2": ["Permutation and Combination"],
+          "Unit 3": ["Introduction to Graph"],
+          "Unit 4": ["Modeling Computation"]
+        },
+        "Android Programming": {
+          "Unit 1": ["Introduction to Android Programming"],
+          "Unit 2": ["Development Tools"],
+          "Unit 3": ["UI Architecture and Design"],
+          "Unit 4": ["Database"]
+        },
+        "Business Accounting": {
+          "Unit 1": ["Introduction and Conceptual Framework"],
+          "Unit 2": ["Recording of Transaction and Depreciation"],
+          "Unit 3": ["Preparation of Final Accounts"],
+          "Unit 4": ["Company Accounts and Computerized Accounting"]
+        }
+      },
+
+      "sem4": {
+        "Java Programming": {
+          "Unit 1": ["Introduction to Java"],
+          "Unit 2": ["OOPS Overview"],
+          "Unit 3": ["Array and I/O Packages"],
+          "Unit 4": ["Exception Handling"]
+        },
+        "Computer Network": {
+          "Unit 1": ["Data Communication and Network Model"],
+          "Unit 2": ["Signal Transmission"],
+          "Unit 3": ["Error Detection and Correction"],
+          "Unit 4": ["Network Layer and Application Layer"]
+        },
+        "Database System": {
+          "Unit 1": ["Introduction to Database"],
+          "Unit 2": ["Design Theory and Normalization"],
+          "Unit 3": ["Relational Model and SQL"],
+          "Unit 4": ["Transaction Processing"]
+        },
+        "Python Programming": {
+          "Unit 1": ["Planning the Program"],
+          "Unit 2": ["Problem Solving Techniques"],
+          "Unit 3": ["Introduction to Python"],
+          "Unit 4": ["Creating Python Programs"]
+        },
+        "Business Economics": {
+          "Unit 1": ["Demand Supply and Market Equilibrium"],
+          "Unit 2": ["Producer Choice"],
+          "Unit 3": ["Theory of Firm"],
+          "Unit 4": ["Factor Market"]
+        }
+      },
+
+      "sem5": {
+        "Web Technology": {
+          "Unit 1": ["Web Essentials"],
+          "Unit 2": ["CSS"],
+          "Unit 3": ["JavaScript and DHTML"],
+          "Unit 4": ["PHP"]
+        },
+        "Software Engineering": {
+          "Unit 1": ["Introduction"],
+          "Unit 2": ["Project Management"],
+          "Unit 3": ["Requirement Analysis"],
+          "Unit 4": ["Coding and Testing"]
+        },
+        "Unix Programming": {
+          "Unit 1": ["Introduction to Unix"],
+          "Unit 2": ["User Management"],
+          "Unit 3": ["Shell Scripting"],
+          "Unit 4": ["Unix Utilities"]
+        },
+        "Data Mining": {
+          "Unit 1": ["Data Warehouse"],
+          "Unit 2": ["Introduction to Data Mining"],
+          "Unit 3": ["Association Rules"],
+          "Unit 4": ["Classification and Prediction"]
+        }
+      },
+
+      "sem6": {
+        "Computer Graphics": {
+          "Unit 1": ["Introduction"],
+          "Unit 2": ["Graphics Primitives"],
+          "Unit 3": ["Transformations"],
+          "Unit 4": ["2D Viewing"]
+        },
+        "Numerical Techniques": {
+          "Unit 1": ["Floating Point and Errors"],
+          "Unit 2": ["Methods"],
+          "Unit 3": ["Interpolation"],
+          "Unit 4": ["Numerical Integration"]
+        },
+        "Data Science": {
+          "Unit 1": ["Toolbox"],
+          "Unit 2": ["R Programming"],
+          "Unit 3": ["Cleaning Data"],
+          "Unit 4": ["Data Analysis"]
+        },
+        "Project Work": {}
+      }
+    }
+  },
+
+  "bba": {
+    "duration": "3 years",
+    "eligibility": "12th pass",
+    "semesters": {
+      "sem1": {
+        "Environmental Science": {
+          "Unit 1": ["Environment Management"],
+          "Unit 2": ["Natural Resources"],
+          "Unit 3": ["Environmental Protection"],
+          "Unit 4": ["Management System"]
+        },
+        "Management and OB": {
+          "Unit 1": ["Business Ownership"],
+          "Unit 2": ["Planning"],
+          "Unit 3": ["Organizational Behaviour"],
+          "Unit 4": ["Teams"]
+        },
+        "Statistics": {
+          "Unit 1": ["Central Value"],
+          "Unit 2": ["Correlation"],
+          "Unit 3": ["Time Series"],
+          "Unit 4": ["Probability"]
+        }
+      },
+
+      "sem2": {
+        "Business Communication": {
+          "Unit 1": ["Communication"],
+          "Unit 2": ["Correspondence"],
+          "Unit 3": ["Report Writing"],
+          "Unit 4": ["Vocabulary"]
+        },
+        "Managerial Economics": {
+          "Unit 1": ["Demand Supply"],
+          "Unit 2": ["Production"],
+          "Unit 3": ["Market"],
+          "Unit 4": ["Factor Market"]
+        },
+        "Business Accounting": {
+          "Unit 1": ["Financial Accounting"],
+          "Unit 2": ["IFRS"],
+          "Unit 3": ["Financial Statements"],
+          "Unit 4": ["Analysis"]
+        }
+      },
+
+      "sem3": {
+        "Macroeconomics": {
+          "Unit 1": ["Macro Variables"],
+          "Unit 2": ["Income Theory"],
+          "Unit 3": ["Money"],
+          "Unit 4": ["Open Economy"]
+        },
+        "Marketing": {
+          "Unit 1": ["Introduction"],
+          "Unit 2": ["Segmentation"],
+          "Unit 3": ["Product Pricing"],
+          "Unit 4": ["Promotion"]
+        },
+        "Management Accounting": {
+          "Unit 1": ["Scope"],
+          "Unit 2": ["Cost Analysis"],
+          "Unit 3": ["Budget"],
+          "Unit 4": ["Variance"]
+        }
+      },
+
+      "sem4": {
+        "Business Research": {
+          "Unit 1": ["Scope"],
+          "Unit 2": ["Research Design"],
+          "Unit 3": ["Data Collection"],
+          "Unit 4": ["Sampling"]
+        },
+        "Human Resource Management": {
+          "Unit 1": ["HRM"],
+          "Unit 2": ["Planning"],
+          "Unit 3": ["Training"],
+          "Unit 4": ["Industrial Relations"]
+        },
+        "Financial Management": {
+          "Unit 1": ["Nature"],
+          "Unit 2": ["Investment"],
+          "Unit 3": ["Capital Structure"],
+          "Unit 4": ["Working Capital"]
+        }
+      },
+
+      "sem5": {
+        "Quantitative Techniques": {
+          "Unit 1": ["Linear Programming"],
+          "Unit 2": ["Transportation"],
+          "Unit 3": ["Network Analysis"],
+          "Unit 4": ["Decision Theory"]
+        },
+        "Business Law": {
+          "Unit 1": ["Contract Act"],
+          "Unit 2": ["Sale of Goods"],
+          "Unit 3": ["Companies Act"],
+          "Unit 4": ["Consumer Protection"]
+        },
+        "Electives": {},
+        "Dissertation": {}
+      },
+
+      "sem6": {
+        "Business Strategy": {
+          "Unit 1": ["Policy"],
+          "Unit 2": ["Environment Analysis"],
+          "Unit 3": ["Strategy Formulation"],
+          "Unit 4": ["Framework"]
+        },
+        "Financial Markets": {
+          "Unit 1": ["Financial System"],
+          "Unit 2": ["Markets"],
+          "Unit 3": ["Secondary Market"],
+          "Unit 4": ["Money Market"]
+        },
+        "Electives": {}
+      }
+    }
+  }
+}

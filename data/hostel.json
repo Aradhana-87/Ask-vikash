@@ -1,0 +1,18 @@
+{
+  "hostel": [
+    {
+      "availability": "Yes, hostel facility is available.",
+      "type": "Both AC and Non-AC rooms are available.",
+      "rooms": "Rooms available for 3, 4, and 5 members.",
+      "fees": "10000 extra per year for AC rooms.",
+      "facilities": "Free laundry,Tv room,reading room,24/7 water supply and power backup.",
+      "study_hours": "Study hours: 6 PM to 8 PM.",
+      "rules": "No visitors allowed after 9 PM.",
+      "mess": "Mess facility available with vegetarian and non-vegetarian options.",
+      "maintanance": "Hostel maintenance is done every month.",
+      "housekeeping": "Housekeeping services are provided every day.",
+      "fitness": "Gym facility available for hostel residents.",
+      "contact": "For hostel inquiry, call 9934567890"
+    }
+  ]
+}

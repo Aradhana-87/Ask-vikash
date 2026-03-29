@@ -1,0 +1,226 @@
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("images/logo.jpg") no-repeat center;
+    background-size: 300px;
+    opacity: 1;
+    z-index: -1;
+}
+
+body.chat-open::before {
+    opacity: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Chatbot */
+#chatbot {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: white;
+    z-index: 1000;
+}
+
+.chat-visible {
+    display: block;
+}
+
+/* Faded logo */
+#chatbot::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("images/logo.jpg") no-repeat center;
+    background-size: 350px;
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+/* Layout */
+.chat-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+.chat-header {
+    background: #d32f2f;
+    color: white;
+    padding: 14px;
+    font-size: 22px;        /* bigger text */
+    font-weight: bold;
+
+    display: flex;          /* 🔥 center fix */
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    letter-spacing: 0.5px;
+}
+
+.chat-header span {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Chat area */
+#chatbox {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+/* Buttons */
+.buttons {
+    padding: 10px;
+}
+
+/* Input */
+.input-area {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Toggle */
+#chat-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 50%;
+
+    width: 70px;      /* 🔥 control size */
+    height: 70px;
+
+    font-size: 30px;  /* icon size */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    z-index: 1001;
+
+    #chat-toggle:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+#chat-toggle {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+}
+
+#chatbot::before {
+    z-index: 0 !important;
+}
+
+.chat-container {
+    position: relative;
+    z-index: 10 !important;
+}
+
+.chat-header,
+#chatbox,
+.buttons,
+.input-area {
+    position: relative;
+    z-index: 20 !important;
+}
+
+.chat-visible {
+    display: flex !important;
+}
+
+#chatbot {
+    display: none;
+    flex-direction: column;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#chatbox {
+    flex: 1;
+}
+
+body {
+    font-size: 18px;   /* overall bigger text */
+}
+
+.input-area input {
+    font-size: 16px;
+    padding: 12px;
+}
+
+.input-area button {
+    font-size: 16px;
+    padding: 10px 14px;
+}
+
+button {
+    font-size: 16px;
+}
+
+
+/*mobile responsiveness */
+
+@media (max-width: 600px) {
+
+    /* Header */
+    .chat-header {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    /* Chat text */
+    body {
+        font-size: 16px;
+    }
+
+    /* Buttons */
+    button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    /* Input */
+    .input-area input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    /* Toggle button */
+    #chat-toggle {
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    /* Logo size */
+    #chatbot::before {
+        background-size: 250px;
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "fees": [
+    { "course": "BCA 1st year", "amount": "₹45,000 per year" },
+    { "course": "BCA 2nd year", "amount": "₹45,000 per year" },
+    { "course": "BCA 3rd year", "amount": "₹45,000 per year" },
+    { "course": "BBA 1st year", "amount": "₹40,000 per year" },
+    { "course": "BBA 2nd year", "amount": "₹40,000 per year" },
+    { "course": "BBA 3rd year", "amount": "₹40,000 per year" }
+  ]
+}

@@ -3,35 +3,31 @@
 An interactive college chatbot website designed to provide students with quick and easy access to important information like courses, fees, hostel, faculty, and college timings.
 
 ---
-📊 System Diagrams
+## 📊 System Diagrams
 
-These diagrams represent the system design and workflow of the College Chatbot.
+### 🔹 Data Flow Diagram (DFD)
 
-🔹 Data Flow Diagram (DFD)
+#### Level 0
+![DFD Level 0](docs/dfd-level0.png)
 
-Level 0 (Context Diagram)
+#### Level 1
+![DFD Level 1](docs/dfd-level1.png)
 
-"DFD Level 0" (docs/dfd-level0.png)
-
-Level 1
-
-"DFD Level 1" (docs/dfd-level1.png)
-
-Level 2
-
-"DFD Level 2" (docs/dfd-level2.png)
+#### Level 2
+![DFD Level 2](docs/dfd-level2.png)
 
 ---
 
-🔹 Entity Relationship (ER) Diagram
-
-"ER Diagram" (docs/er-diagram.png)
+### 🔹 ER Diagram
+![ER Diagram](docs/er-diagram.png)
 
 ---
 
-🔹 Use Case Diagram
+### 🔹 Use Case Diagram
+![Use Case Diagram](docs/usecase-diagram.png)
 
-"Use Case Diagram" (docs/usecase-diagram.png)
+
+
 
 ---
 🌟 Features

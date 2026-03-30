@@ -6,6 +6,11 @@ let facultyData = {};
 let collegeData = {};
 let faqData = {};
 let selectedCourse = "";
+let timingData = {
+    firstSecondYear: "8:40 AM - 2:50 PM",
+    thirdYear: "8:40 AM - 12:50 PM",
+    sunday: "Holiday"
+};
 
 // ================== chat toggle ==================
 
@@ -280,7 +285,6 @@ function showSubject(sem, subject) {
 function getSmartReply(input) {
     input = input.toLowerCase();
 
-    // synonyms mapping
     if (input.includes("fee") || input.includes("price") || input.includes("cost")) {
         return "fees";
     }
@@ -297,18 +301,35 @@ function getSmartReply(input) {
         return "admission";
     }
 
+    if (input.includes("today") || input.includes("open today") || input.includes("college open today")) {
+
+    return "todayStatus";
+    }
+
+
+    // 🔥 timing FIRST
+    if (
+        input.includes("timing") ||
+        input.includes("time") ||
+        input.includes("college hours") ||
+        input.includes("working hours") 
+    ) {
+        return "timing";
+    }
+
+    // 👇 MOVE THESE INSIDE
     if (input.includes("college") || input.includes("about") || input.includes("info")) {
         return "college";
     }
 
     if (input.includes("instagram") || input.includes("facebook") || input.includes("social")) {
-    return "social"; 
+        return "social";
     }
 
     if (input.includes("bca")) return "bca";
     if (input.includes("bba")) return "bba";
 
-    return null;
+        return null;
 }
 
 // ================= SEND =================
@@ -333,9 +354,9 @@ function sendMessage() {
     return botReply(`
         ${greet}! 👋<br>
         Ask anything like:<br>
-        • admission<br>
-        • hostel<br>
-        • fees<br><br>
+        • Admission<br>
+        • Hostel<br>
+        • Fees<br><br>
         <button onclick="selectCourse('bca')">BCA</button>
         <button onclick="selectCourse('bba')">BBA</button>
     `);
@@ -363,6 +384,7 @@ let smart = getSmartReply(input);
 
 if (smart === "social") {
     return botReply(`
+        
         🔗 <b>Follow us:</b><br><br>
 
         <a href="https://www.instagram.com/vsbm_bargarh_2011?igsh=MWVpOWltcnRxczFmZg==" target="_blank" style="color:#E1306C;">
@@ -373,6 +395,31 @@ if (smart === "social") {
             👍 Facebook
         </a>
     `);
+}
+if (smart === "timing") {
+    return botReply(`
+        📅 <b>College Timings</b><br><br>
+
+        🎓 BBA & BCA<br><br>
+
+        👉 1st & 2nd Year:<br>
+        ${timingData.firstSecondYear}<br><br>
+
+        👉 3rd Year:<br>
+        ${timingData.thirdYear}<br><br>
+
+        📅 Sunday:<br>
+        ${timingData.sunday}
+    `);
+}
+if (smart === "todayStatus") {
+    let day = new Date().getDay();
+
+    if (day === 0) {
+        return botReply("📅 Today is Sunday. College is closed.");
+    } else {
+        return botReply("📅 College is open today.");
+    }
 }
 if (smart === "hostel") return handleCategory("hostel");
 if (smart === "fees") return handleCategory("fees");
